@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1= title
+    if (errors)
+        .alert.alert-danger
+            each msg in errors
+                h4=msg.msg
+    form(method="POST" action='/articles/add')
+        #form-group
+            label title:
+            input.form-control(type="text", name='title')
+        #form-group
+            label Body:
+            textarea.form-control(name="body")
+        input.btn.btn-primary.mt-3(type='submit', value="Add Article")

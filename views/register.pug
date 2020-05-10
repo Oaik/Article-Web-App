@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    h1 Register
+    if (errors)
+        .alert.alert-danger
+            each msg in errors
+                h4=msg.msg
+    form(method="POST" action='/users/register')
+        #form-group
+            label Name:
+            input.form-control(type="text", name='name')
+        #form-group
+            label Username:
+            input.form-control(type="text", name='username')
+        #form-group
+            label Password:
+            input.form-control(type="password", name='password')
+        #form-group
+            label Check Password:
+            input.form-control(type="password", name='checkPassword')   
+        input.btn.btn-primary.mt-3(type='submit', value="Register")
