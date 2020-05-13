@@ -4,7 +4,7 @@ Website allow people to sign up and start to write articles in several categorie
 Technology and languages Used: Bootstrap, JavaScript, Node.js, Express.js, MongoDB.js, Passport.js
 
 <ul>
-  <li><a href="#">App features</a></li>
+  <li><a href="#-feature-of-the-app">App features</a></li>
   <li><a href="#-how-to-install-and-run-the-app">running the app in your local server</a></li>
 </ul>
 
