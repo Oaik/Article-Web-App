@@ -3,9 +3,19 @@ Website allow people to sign up and start to write articles in several categorie
 
 Technology and languages Used: Bootstrap, JavaScript, Node.js, Express.js, MongoDB.js, Passport.js
 
+<ul>
+  <li><a href="#">App features</a></li>
+  <li><a href="#-how-to-install-and-run-the-app">running the app in your local server</a></li>
+</ul>
+
+### 🚀 Feature of the app
+- Register/login system
+- Registered users can create articles also he can edit his own articles or delete any of them
+- index page will contain all written articles sorted in publish date 
 
 <h3>🚀 How to install and run the app</h3>
 
+Download the github repository
 ### install nodeJS
 which can be downloaded <a href="https://nodejs.org/en/download/">here</a>
 
