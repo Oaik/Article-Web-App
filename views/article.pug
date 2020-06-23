@@ -5,7 +5,7 @@ block content
     h2 Wriiten by 
         span= author
     p= article.body
-    if (article.author == user._id)
+    if (user && article.author == user._id)
         hr
         a.btn.btn-default(href="/articles/edit/" +article._id) Edit
         a.btn.btn-danger.delete-article(href="#", data-id=article.id) Delete
