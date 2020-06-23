@@ -2,6 +2,7 @@
 // D: Controller folder to organize the app
 // Error handel
 // (JS minfy+ styls) + Grunt
+const PORT = 5000;
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -21,8 +22,8 @@ require('./init/init');
 mongoose.connect(config.dbUrl, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
 let db = mongoose.connection;
 
-db.on('error', (err) => console.log(err));
 db.once('open', () => console.log("Connected to DB"));
+db.on('error', (err) => console.log(err));
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -77,6 +78,6 @@ app.get('/', (req, res) => {
 //     console.log(err);
 // })
 
-app.listen(5000, () => {
-    console.log("Running on Port 5000");
+app.listen(PORT, () => {
+    console.log(`Running on Port ${PORT}`);
 })
