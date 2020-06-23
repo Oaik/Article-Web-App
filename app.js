@@ -2,7 +2,7 @@
 // D: Controller folder to organize the app
 // Error handel
 // (JS minfy+ styls) + Grunt
-const PORT = 5000;
+const PORT = process.env.PORT || 5000
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
