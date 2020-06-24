@@ -1,13 +1,14 @@
 # ArticlePage
 Website allow people to sign up and start to write articles in several categories or (edit/delete) his own articles and other people can read his article (CRUD APP) 
 
-<a href="https://aqueous-reef-27948.herokuapp.com/">Live preview</a>
+<a href="https://aqueous-reef-27948.herokuapp.com/">Live preview see the app in action</a>
 
 Technology and languages Used: Bootstrap, JavaScript, Node.js, Express.js, MongoDB.js, Passport.js
 
 <ul>
   <li><a href="#-feature-of-the-app">App features</a></li>
   <li><a href="#-how-to-install-and-run-the-app">running the app in your local server</a></li>
+  <li><a href="#-how-to-install-and-run-the-app">Demo</a></li>
 </ul>
 
 ### 🚀 Feature of the app
@@ -37,3 +38,18 @@ To `run` the app using `node`:
 $ node app.js
 ```
 #### now open your browser and open `http://localhost:5000/`
+
+
+### 🚀 Demo
+
+Mainpage
+<img src="demo/screencapture-localhost-5000-2020-06-23-15_36_55.png">
+
+Login page
+<img src="demo/screencapture-localhost-5000-users-login-2020-06-23-15_36_20.png">
+
+Register page
+<img src="demo/screencapture-localhost-5000-users-register-2020-06-23-15_38_44.png">
+
+Add articles page
+<img src="demo/screencapture-localhost-5000-articles-add-2020-06-23-15_37_34.png">
