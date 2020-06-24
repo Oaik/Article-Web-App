@@ -1,20 +1,35 @@
 # ArticlePage
 Website allow people to sign up and start to write articles in several categories or (edit/delete) his own articles and other people can read his article (CRUD APP) 
 
-<a href="https://aqueous-reef-27948.herokuapp.com/">Live preview see the app in action</a>
+### Table of content
 
 Technology and languages Used: Bootstrap, JavaScript, Node.js, Express.js, MongoDB.js, Passport.js
-
+<a href="https://aqueous-reef-27948.herokuapp.com/">Live preview see the app in action</a>
 <ul>
   <li><a href="#-feature-of-the-app">App features</a></li>
+   <li><a href="#-demo">Demo</a></li>
   <li><a href="#-how-to-install-and-run-the-app">running the app in your local server</a></li>
-  <li><a href="#-how-to-install-and-run-the-app">Demo</a></li>
 </ul>
 
 ### 🚀 Feature of the app
 - Register/login system
 - Registered users can create articles also he can edit his own articles or delete any of them
 - index page will contain all written articles sorted in publish date 
+
+
+### 🚀 Demo
+
+Mainpage
+<img src="demo/screencapture-localhost-5000-2020-06-23-15_36_55.png">
+
+Login page
+<img src="demo/screencapture-localhost-5000-users-login-2020-06-23-15_36_20.png">
+
+Register page
+<img src="demo/screencapture-localhost-5000-users-register-2020-06-23-15_38_44.png">
+
+Add articles page
+<img src="demo/screencapture-localhost-5000-articles-add-2020-06-23-15_37_34.png">
 
 <h3>🚀 How to install and run the app</h3>
 
@@ -38,18 +53,3 @@ To `run` the app using `node`:
 $ node app.js
 ```
 #### now open your browser and open `http://localhost:5000/`
-
-
-### 🚀 Demo
-
-Mainpage
-<img src="demo/screencapture-localhost-5000-2020-06-23-15_36_55.png">
-
-Login page
-<img src="demo/screencapture-localhost-5000-users-login-2020-06-23-15_36_20.png">
-
-Register page
-<img src="demo/screencapture-localhost-5000-users-register-2020-06-23-15_38_44.png">
-
-Add articles page
-<img src="demo/screencapture-localhost-5000-articles-add-2020-06-23-15_37_34.png">
